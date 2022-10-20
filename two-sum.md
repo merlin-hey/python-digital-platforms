@@ -7,7 +7,7 @@
 ```python
 def search_two_sum(numb, k):
     numb_copy = numb.copy()
-    numb_copy.sort() #не обязательно
+    numb_copy.sort()
     left = 0
     right = len(numb_copy)-1
     while left < right:
